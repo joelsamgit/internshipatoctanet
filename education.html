@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Travel Destinations</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://t4.ftcdn.net/jpg/00/65/48/25/360_F_65482539_C0ZozE5gUjCafz7Xq98WB4dW6LAhqKfs.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: space-between;
+            background-color: rgba(0, 0, 0, 0.7); /* Optional: Add a semi-transparent overlay for better text visibility */
+        }
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50%;
+        }
+        .header h1 {
+            font-size: 4em;
+            color: white;
+        }
+        .websites {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50%;
+        }
+        .website {
+            width: 20%; /* Reduced from 30% to 20% */
+            text-align: center;
+        }
+        .website img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Explore the World with Top Travel Destinations</h1>
+        </div>
+        <div class="websites">
+            <div class="website">
+                <a href="https://www.makemytrip.com/" target="_blank">
+                    <img src="https://miro.medium.com/v2/resize:fit:600/1*0ykCMh-SifCFc47xVIIojQ.png" alt="MakeMyTrip">
+                </a>
+            </div>
+            <div class="website">
+                <a href="https://www.expedia.co.in/" target="_blank">
+                    <img src="https://getlasso.co/wp-content/uploads/expedia.png" alt="Expedia">
+                </a>
+            </div>
+            <div class="website">
+                <a href="https://www.tripadvisor.in/" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEY9wks6rs5VcVcVZV20tuIpELPZu6ldjh-g&s" alt="TripAdvisor">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
